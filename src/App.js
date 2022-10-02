@@ -1,5 +1,12 @@
+import ReactBeautifulDnd from "./component/react-beautiful-dnd/ReactBeautifulDnd";
+
 function App() {
-  return <div className="App"></div>;
+  return (
+    <main className="main">
+      {/* <div className="ctn">container</div> */}
+      <ReactBeautifulDnd />
+    </main>
+  );
 }
 
 export default App;
